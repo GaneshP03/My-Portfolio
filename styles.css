@@ -51,6 +51,9 @@
     padding: 0 4em;
 }
 
+.ham-menu{
+  display:none;
+}
 .nav-items div{
     font-size:20px;
     font-weight:500;
@@ -611,4 +614,24 @@ a{
 
 .skill-subHeading p{
   margin:15px 0;
+}
+
+@media (max-width:1300px){
+  .nav-items{
+    display:none;
+  }
+
+  .ham-menu{
+    display:block;
+    font-size: 30px;
+  }
+
+  .hero-section{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
 }
