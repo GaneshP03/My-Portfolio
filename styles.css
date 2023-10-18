@@ -18,7 +18,7 @@
 }
 
 .container{
-    width:1200px;
+    max-width:1200px;
     margin:0 auto;
 }
 
@@ -26,7 +26,6 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
-
     padding-top:1rem;
 }
 
@@ -532,14 +531,14 @@ a{
   .project-card:hover .project-con {
     scale: 0.55;
   }
-
-  .ham-menu{
-    display: block;
-    font-size: 50px;
-  }
-
+  
   .nav-items{
     display: none;
+  }
+  .ham-menu{
+    font-size:50px;
+    display: block;
+    margin-right: 2em;
   }
 }
 
