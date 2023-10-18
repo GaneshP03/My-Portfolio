@@ -53,6 +53,7 @@
 
 .ham-menu{
   display:none;
+  position:absolute;
 }
 .nav-items div{
     font-size:20px;
@@ -531,6 +532,15 @@ a{
   .project-card:hover .project-con {
     scale: 0.55;
   }
+
+  .ham-menu{
+    display: block;
+    font-size: 50px;
+  }
+
+  .nav-items{
+    display: none;
+  }
 }
 
 .skills-container{
@@ -616,22 +626,3 @@ a{
   margin:15px 0;
 }
 
-@media (max-width:1300px){
-  .nav-items{
-    display:none;
-  }
-
-  .ham-menu{
-    display:block;
-    font-size: 30px;
-  }
-
-  .hero-section{
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    
-  }
-
-
-}
