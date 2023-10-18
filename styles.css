@@ -53,7 +53,7 @@
 
 .ham-menu{
   display:none;
-  position:absolute;
+  /* position:absolute; */
 }
 .nav-items div{
     font-size:20px;
