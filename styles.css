@@ -323,7 +323,6 @@ a{
   max-width: 1200px;
   margin:0 auto;
   padding: 3rem 0;
-
   display: flex;
   flex-direction: column;
   gap:120px;
@@ -538,9 +537,33 @@ a{
   .ham-menu{
     font-size:50px;
     display: block;
-    margin-right: 2em;
+    margin-right: 1em;
   }
+
+  .hero-section{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .skill-subHeading{
+    text-wrap: wrap;
+  }
+
+  .faded-text{
+display: none;
+  }
+
+.skill-fade-text{
+ display:none;   
 }
+}
+
+
 
 .skills-container{
   position: relative;
