@@ -29,6 +29,9 @@
     padding-top:1rem;
 }
 
+.dropdown_menu{
+  display: none;
+}
 .logo{
     width:80px;
 }
