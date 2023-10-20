@@ -561,6 +561,14 @@ display: none;
 .skill-fade-text{
  display:none;   
 }
+
+.blob-style{
+  width:100%;
+}
+.user-image img{
+  width: 100%;
+}
+
 }
 
 
