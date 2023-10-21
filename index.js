@@ -10,4 +10,9 @@ var typeData = new Typed(".role", {
     backSpeed: 80,
     backDelay: 1000,
   });
-
+const hamBtn = document.querySelector('.ham-menu')
+const mobileMenu = document.querySelector('.dropdown_menu');
+hamBtn.addEventListener('click',function(){
+     mobileMenu.classList.toggle('flex');
+     
+})
