@@ -55,7 +55,7 @@
 
 .ham-menu{
   display:none;
-  /* position:absolute; */
+
 }
 .nav-items div{
     font-size:20px;
@@ -538,10 +538,11 @@ a{
     display: none;
   }
   .ham-menu{
-    font-size:50px;
+    font-size:30px;
     display: block;
     margin-right: 1em;
   }
+
 
   .hero-section{
     flex-direction: column-reverse;
@@ -572,6 +573,31 @@ display: none;
   width: 100%;
 }
 
+.dropdown_menu{
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  margin-right:30px;
+}
+ul{
+  margin-top: 100px;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.logo{
+  width:50px;
+}
+.logo-text{
+  font-size:20px;
+}
 }
 
 
@@ -658,4 +684,6 @@ display: none;
 .skill-subHeading p{
   margin:15px 0;
 }
-
+.flex{
+  display: flex;
+}
