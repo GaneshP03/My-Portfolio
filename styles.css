@@ -687,3 +687,7 @@ ul li a{
 .flex{
   display: flex;
 }
+
+.txt {
+  color: black;
+}
